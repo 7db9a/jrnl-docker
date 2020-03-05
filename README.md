@@ -1,12 +1,14 @@
-## Jrnl Docker
+## jrnl docker
 
 The image builds with jrnl v1.9.8. I'll probably upgrade this to `jrnl>=v2.0.0` soon.
 
 ## Setup
 
-#### Build the image
-
-`docker build -t jrnl:1.9.8-buster docker/ `
+```
+git clone https://github.com/7d9a/jrnl-docker
+cd jrnl-docker
+docker build -t jrnl:1.9.8-buster docker/
+```
 
 #### Alias docker
 
@@ -43,13 +45,13 @@ Make sure the paths in your `.jrnl_config` are something like `/jrnl/stage/...`.
 
 ## Usage
 
-Find stuff
-
-`jrnl @some-tag`
-
 Write stuff
 
-`jrnl 'an entry'`
+`jrnl 'an entry @sometag'`
+
+Find stuff
+
+`jrnl @sometag`
 
 For more jrnl 1.9.8 usage, see [here](https://pypi.org/project/jrnl/1.9.8/).
 
