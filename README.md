@@ -6,8 +6,7 @@ The image builds with jrnl v1.9.8. I'll probably upgrade this to `jrnl>=v2.0.0` 
 
 ```
 git clone https://github.com/7d9a/jrnl-docker
-cd jrnl-docker
-docker build -t jrnl:1.9.8-buster docker/
+docker build -t jrnl:1.9.8-buster jrnl-docker/
 ```
 
 #### Alias docker
