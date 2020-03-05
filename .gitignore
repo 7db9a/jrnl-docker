@@ -1,0 +1,6 @@
+*
+!.gitignore
+!README.md
+!Dockerfile
+!config/
+!stage/
